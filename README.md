@@ -91,8 +91,8 @@ typedef struct{
 }LR;
 ```
 
-    함수에 대해 설명하기 이전에, 위코드는 pthread_create가 받을 두 개의 매개변수를 struct를 이용해 한번 감싸놓은 형태의 코드입니다. quicksort의 특성상, 시작점과 끝점이 필요한데, 이를 left의 l과 right의 r로 표현하였습니다. 해당 값들은 index가 되어야 하기 때문에 int type을 가집니다. 
-
+함수에 대해 설명하기 이전에, 위코드는 pthread_create가 받을 두 개의 매개변수를 struct를 이용해 한번 감싸놓은 형태의 코드입니다. quicksort의 특성상, 시작점과 끝점이 필요한데, 이를 left의 l과 right의 r로 표현하였습니다. 해당 값들은 index가 되어야 하기 때문에 int type을 가집니다. 
+해
 ```c
 void test(){for(int i = 0; i < length-1; ++i)if(data[i]>data[i+1])printf("err, %d\n",i);else printf("0");}
 void initialize_array(){
