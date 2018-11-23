@@ -1,0 +1,1 @@
+cmd_/home/student/Desktop/HW05_2015110576_/mydrv.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/student/Desktop/HW05_2015110576_/mydrv.ko /home/student/Desktop/HW05_2015110576_/mydrv.o /home/student/Desktop/HW05_2015110576_/mydrv.mod.o
